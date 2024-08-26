@@ -72,6 +72,8 @@ async def process(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Start the bot."""
 
+    print(logo)
+
     with open("./API_KEYS","r") as f:
         TOKEN = f.read()
     
